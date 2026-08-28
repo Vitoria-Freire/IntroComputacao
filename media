@@ -4,3 +4,8 @@ nota_2 = float(input("Digite a nota 2: "))
 media = (nota_1 + nota_2)/2
 
 print("\nA média é: ", media)
+
+if media >= 6:
+    print("O aluno está Aprovado")
+else:
+    print("O aluno está Reprovado")
