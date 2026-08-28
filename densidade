@@ -1,0 +1,6 @@
+massa = float(input("Diga o valor da massa: "))
+vol = float(input("Informe o valor do volume: "))
+
+dens = massa/vol
+
+print("A densidade é de ", dens)
