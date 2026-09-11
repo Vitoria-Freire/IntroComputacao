@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    cadeia nome_elem
+    escreva("O nome do elemento: ")
+    leia(nome_elem)
+
+    real massa_elem
+    escreva("A massa do elemento: ")
+    leia(massa_elem)
+
+    escreva("O elemento ", nome_elem, " tem massa ", massa_elem, " u.")
+  }
+}
