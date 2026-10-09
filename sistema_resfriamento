@@ -1,0 +1,28 @@
+temp = float(input("Diga o valor da temperatura: "))
+pres = float(input("Diga o valor da pressão: "))
+
+if temp > 80 or pres > 5:
+    print("Acione o sistema de resfriamento.")
+else:
+    print("Operação em conformidade.")
+
+
+#portugol
+///
+programa {
+  funcao inicio() {
+    real temp
+    real pres
+
+    escreva ("Digite o valor da temperatura: ")
+    leia (temp)
+    escreva ("Digite o valor da pressão: ")
+    leia (pres)
+
+    se (temp > 80 ou pres > 5)
+    {escreva("Acione o sistema de resfriamento.")}
+    senao
+    {escreva("Operação em conformidade.")}
+  }
+}
+///
