@@ -1,0 +1,29 @@
+pH = float(input("Diga o valor do pH: "))
+
+if pH < 7:
+    print("A solução é ácida.")
+elif pH == 7:
+    print("A solução é neutra.")
+else:
+    print("A solução é básica.")
+
+
+
+
+#portugol:
+///programa {
+  funcao inicio() {
+    real pH
+    escreva("Diga o valor do pH: ")
+    leia (pH)
+
+    se (pH < 7.0)
+    {escreva("A solução é ácida.")}
+    senao se (pH == 7.0)
+    {escreva("A solução é neutra.")}
+    senao
+    {escreva("A solução é básica.")}
+
+  }
+}
+///
