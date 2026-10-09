@@ -1,0 +1,36 @@
+nota = float(input("Diga a nota do aluno: "))
+freq = float(input("Diga a frequencia em porcentagem (apenas o valor numerico) do aluno: "))
+
+if nota >= 7.0 and freq >= 75:
+    print("O aluno está aprovado!")
+elif nota < 7.0 and freq >= 75:
+    print("O aluno foi reprovado por nota!")
+elif nota >= 7.0 and freq < 75:
+    print("O aluno foi reprovado por frequencia!")
+else:
+    print("O aluno está reprovado!")
+
+#portugol
+///
+programa {
+  funcao inicio() {
+    real nota
+    real freq
+
+    escreva("Diga a nota do aluno: ")
+    leia(nota)
+
+    escreva("Diga a frequencia em porcentagem (apenas o valor numerico) do aluno: ")
+    leia(freq)
+
+    se (nota >= 7.0 e freq >= 75)
+    {escreva("O aluno está aprovado!")}
+    senao se (nota < 7.0 e freq >= 75)
+    {escreva("O aluno foi reprovado por nota!")}
+    senao se (nota >= 7.0 e freq < 75)
+    {escreva("O aluno foi reprovado por frequencia!")}
+    senao
+    {escreva("O aluno está reprovado!")}
+  }
+}
+///
