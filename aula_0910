@@ -1,0 +1,27 @@
+temp = float(input("Diga o valor da temperatura: "))
+pres = float(input("Diga o valor da pressão: "))
+
+if temp <= 60 and pres <= 4:
+    print("A operação é segura.")
+else:
+    print("A operação não é segura")
+
+#portugol
+///
+programa {
+  funcao inicio() {
+    real temp
+    real pres
+
+    escreva ("Digite o valor da temperatura: ")
+    leia (temp)
+    escreva ("Digite o valor da pressão: ")
+    leia (pres)
+
+    se (temp <= 60 e pres <= 4)
+    {escreva("A operação é segura")}
+    senao
+    {escreva("A operação não é segura")}
+  }
+}
+///
